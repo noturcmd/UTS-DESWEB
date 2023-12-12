@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+.container{
+            width: 181.4vh;
+        }
+
+        .container header img{
+            position: absolute;
+            z-index: 999999;
+            top: 10px;
+            left: 20px;
+        }
+
+        .container header svg{
+            position: absolute;
+            z-index: 10;
+        }
+
+
+        .container header menu ul{
+            position: absolute;
+            z-index: 999999;
+            display: flex;
+            justify-content: space-between;
+            right: 30px;
+        }
+        
+        .container header menu ul li{
+            text-align: center;
+            margin: 15px 2px;
+            padding: 10px;
+            width: 140px;
+            box-sizing: border-box;
+        }
+        .container header menu ul li:hover{
+            padding: 5px;
+            font-size: 1.2em;
+            text-shadow: 2px 2px 5px whitesmoke, -2px -2px 5px whitesmoke;
+        }
+        
+        .container header menu ul li a{
+            box-sizing: border-box;
+            font-family:'Black Ops One';
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        main{
+            height: auto;
+            width: 100%;
+            padding-top: 300px;
+        }
+
+        main section.introduce{
+            height: 90vh;
+            padding-top: 300px;
+        }
+
+        main section{
+            width: 100%;
+        }
+
+
+
+section span#welcome{
+    font-family:'Black Ops One';
+    width: 100%;
+    display: inline-block;
+    /* background-color: grey; */
+    font-size: 3em;
+    color: rgb(83, 19, 196);
+    text-align: center;
+    text-shadow: 2px 2px pink, 3px 3px rgb(77, 19, 102);
+}
+
+#isi-atas{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#isi-atas .teks{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 10px 5px 0px gray;
+    width: 50vw;
+    margin: 10px auto 0;
+    text-align: justify;
+}
+
+.container section#isi-atas img{
+    position: relative;
+    left: 33vw;
+}
+
+.introduce h1{
+    display: inline-block;
+    font-family:'Black Ops One';
+    font-size: 4em;
+    color: #830dfa;
+    text-shadow: 3px 3px rgb(74, 30, 116);
+    margin-left: 100px;
+    box-shadow: 10px 10px 0px 5px #343333, -1px -1px 0px 0px #343333;
+    padding: 5px;
+}
